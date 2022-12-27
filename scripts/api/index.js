@@ -19,3 +19,5 @@ export async function getMediaByPhotographers(id) {
   const data = await getData();
   return data.media.filter(m => m.photographerId === id);
 }
+// Add comment line
+// Add second comment line
